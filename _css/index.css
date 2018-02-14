@@ -1,0 +1,30 @@
+@charset "utf-8";
+#User, #Password, #Login {
+	border-radius: 25px;
+    border-color: black;
+}
+
+#WrongPanel {
+    text-align: center;
+}
+
+.btn {
+	background-color: #9B34B7;
+	color: white;
+	font-weight: bolder;
+}
+
+form {
+    margin: 30vw 7vw;
+}
+
+@media (min-width: 800px){
+    body {
+		background-image: url("../_images/icons/logo/icon-300dpi.png");
+        background-size: 100vw;
+        background-position: -40vw -30vw;
+    }
+    form {
+        margin: 18vw 5vw 10vw 65vw;
+    }
+}
